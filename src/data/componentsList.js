@@ -164,14 +164,12 @@ body.very-high-brightness-theme {
                 the icons, we recommend use libraries like boxicons and fontawesome.`,
                 code: 
 `// With boxicons
-<button class="button button_icon" 
-    title="Watch Repository in GitHub">
+<button class="button button_icon">
     <i class='bx bxs-pointer' ></i>
 </button>
 
 // With Fontawesome
 <button class="button button_icon" 
-    title="Watch Repository in GitHub">
     <i class="fas fa-palette"></i>
 </button>`,
             },
@@ -199,14 +197,14 @@ body.very-high-brightness-theme {
                 id: 'input-text',
                 title : "Input Text",
                 preview : 
-                `<label class="input-label" for="ejemploInput">Elemento:</label> 
-                <input id="ejemploInput" class="input-text" type="text" placeholder="100%"/>
+                `<label class="input-label" for="Inputexpample">Element:</label> 
+                <input id="Inputexpample" class="input-text" type="text" placeholder="100%"/>
                 `,
                 description : "",
                 codeType: "language-html",
                 code: 
-`<label class="input-label" for="ejemploInput">Elemento:</label> 
-<input id="ejemploInput" class="input-text" type="text" placeholder="100%"/>`,
+`<label class="input-label" for="Inputexpample">Element:</label> 
+<input id="Inputexpample" class="input-text" type="text" placeholder="100%"/>`,
             },
             {
                 id: 'input-range',
