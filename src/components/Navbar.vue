@@ -8,12 +8,14 @@
                 <div class="navbar__links">
                     <a  class="button button_icon" 
                         title="Watch Repository in GitHub"
+                        target="blank"
                         href="https://github.com/Emilianoac/illustrator.css">
                         <i class="bx bxl-github"></i>
                     </a>
                     <a  class="button button_icon"
                         title="Install with NPM"
-                        href="">
+                        target="blank"
+                        href="https://www.npmjs.com/package/illustrator.css">
                         <i class="bx bxs-download"></i>
                     </a>
                 </div>
