@@ -22,8 +22,24 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: bold;
 }
 
-a {
+.anchor-link {
     color: dodgerblue;
+
+    &:visited {
+        color: dodgerblue;
+    }
+}
+
+body.high-brightness-theme,
+body.very-high-brightness-theme {
+
+    .anchor-link {
+        color: #4008da
+    }
+
+    &:visited {
+        color: #4008da
+    }
 }
 
 
