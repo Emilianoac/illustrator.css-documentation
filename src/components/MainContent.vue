@@ -13,7 +13,7 @@
                 <p class="card__description mt-2"><strong>Via GitHub</strong></p>
                 <p class="card__description mt-2"> 
                     You can also download directly from the
-                    <a target="_blank" href="https://github.com/Emilianoac/illustrator.css">Github repository</a>
+                    <a class="anchor-link" target="_blank" href="https://github.com/Emilianoac/illustrator.css">Github repository</a>
                 </p>
             </div>
         </section>  
@@ -22,7 +22,24 @@
             :key="section.id"
             :title="section.title"
             :components="section.components"> 
-        </ComponentSection>        
+        </ComponentSection>   
+        <section class="section">
+            <div class="card card_introduction">
+                <p class="card__description">
+                    If you detect some bug feel free to report this on the 
+                    <a class="anchor-link" target="blank" href="https://github.com/Emilianoac/illustrator.css">GitHub</a> page :) <br>
+                    Finally, I would like to thank you to projects like
+                    <a class="anchor-link" target="blank" href="https://nostalgic-css.github.io/NES.css/">ness.css</a> 
+                    and
+                    <a class="anchor-link" target="blank" href="https://jdan.github.io/98.css/">98.css</a> 
+                    for inspiring me to do this.
+                </p>
+
+                <p class="card__description mt-2"> 
+                    <a class="anchor-link" target="_blank" href="https://github.com/Emilianoac/illustrator.css/blob/master/LICENSE">MIT License</a>
+                </p>
+            </div>
+        </section>       
     </main>
 </template>
  
@@ -46,7 +63,7 @@
         max-width: 100%;
         padding: 2.5em;
         padding-top: 5em;
-        padding-bottom: 400px;
+        padding-bottom: 140px;
 
         .card_introduction {
             
