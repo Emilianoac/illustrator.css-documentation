@@ -163,13 +163,13 @@ body.very-high-brightness-theme {
                 description :`The icon button is used to display the creation and editing tools. This framework does not provide 
                 the icons, we recommend use libraries like boxicons and fontawesome.`,
                 code: 
-`// With boxicons
+`<!--- With boxicons --->
 <button class="button button_icon">
-    <i class='bx bxs-pointer' ></i>
+    <i class="bx bxs-pointer"></i>
 </button>
 
-// With Fontawesome
-<button class="button button_icon" 
+<!--- With Fontawesome --->
+<button class="button button_icon">
     <i class="fas fa-palette"></i>
 </button>`,
             },
