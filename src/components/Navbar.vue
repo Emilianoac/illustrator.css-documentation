@@ -1,8 +1,8 @@
 <template>
     <nav class="navbar">
         <div class="navbar__row">
-            <div class="navbar__logotipe">
-                <span aria-label="Site logotipe" >Illustrator.css</span>
+            <div class="navbar__logotype">
+                <span aria-label="Site logotype" >Illustrator.css</span>
             </div>
             <div class="navbar__row">
                 <div class="navbar__links">
@@ -86,7 +86,7 @@
         z-index: 1;
         background-color: var(--bg-color-medium);
 
-        .navbar__logotipe {
+        .navbar__logotype {
 
             span {
                 position: relative;
@@ -197,7 +197,7 @@
 
         .navbar {
 
-            .navbar__logotipe {
+            .navbar__logotype {
 
                 span {
                     font-size: 0.80em;
